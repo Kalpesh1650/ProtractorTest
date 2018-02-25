@@ -2,6 +2,7 @@ describe('Login functionality for Stingray Application', function() {
   it('should login successfully to Stingray', function() {
 	  
 	browser.waitForAngularEnabled(false);
+	
     browser.get('http://206.142.241.41/stingray/web/login.jsp');
     browser.manage().window().maximize();
     var userName = 'Test Underwriter HHaz 1';
