@@ -3,11 +3,11 @@ exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
 
   // Capabilities to be passed to the webdriver instance.
-  capabilities: {
+  Capabilities: {
     browserName: 'chrome'
   },
 
-  specs: ['firstTest_spec.js'],
+   specs: ['angular_Calc_test_spec.js'],
   // Framework to use. Jasmine is recommended.
   framework: 'jasmine',
   onPrepare: function() {
